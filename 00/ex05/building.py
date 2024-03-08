@@ -2,6 +2,7 @@ import sys
 
 def main():
 	user_input = ""
+	buff = ",.!?:;()[]{}<>_-\"'`/\\@#$%^&*~+=|"
 	try:
 		if len(sys.argv) == 1:
 			user_input = input("Please provide a string: > ")
@@ -15,7 +16,6 @@ def main():
 	upper_case = sum(1 for c in user_input if c.isupper())
 	lower_case = sum(1 for c in user_input if c.islower())
 	space = sum(1 for c in user_input if c.isspace())
-	buff = ",.!?:;()[]{}<>_-\"'`/\\@#$%^&*~+=|"
 	ponct = sum(1 for c in user_input if c in buff)
 	digit = sum(1 for c in user_input if c.isdigit())
 
