@@ -1,5 +1,7 @@
 # Piscine-Python
 
-__excercices pour apprendre le langage Python__
+__Python exercices__
 
-Stand-by ⏳🚧
+> [!NOTE]
+> ⏳ - Stand-by for now / no correction for D0 
+
